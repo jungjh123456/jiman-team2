@@ -1,23 +1,26 @@
 @import url(normalize.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
-*, *::before, *::after {
-  box-sizing:border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 html {
   font-size: 10px;
 }
 body {
-  font-size: 1.4rem; 
-  color: #181818; 
+  font-size: 1.4rem;
+  color: #181818;
   font-family: 'Noto Sans KR', sans-serif; /* Noto Sans KR 웹폰트 링크 연결 */
   font-weight: 400;
 }
 /* 숨김 콘텐츠 */
-.a11y-hidden, legend {
-  position: absolute;/*레이어함*/
+.a11y-hidden,
+legend {
+  position: absolute; /*레이어함*/
   width: 1px;
   height: 1px;
-  overflow: hidden;/*넘치는 것 감추기*/
+  overflow: hidden; /*넘치는 것 감추기*/
   margin: -1px;
   clip-path: polygon(0 0, 0 0, 0 0);
   clip: rect(0 0 0 0);
@@ -25,12 +28,14 @@ body {
 }
 /* clearfix */
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: block;
 }
 /* header 초기화 */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 /*ul 초기화 */
@@ -49,7 +54,8 @@ button {
   border: 0;
 }
 /* dl, dd 초기화 */
-dl, dd {
+dl,
+dd {
   margin: 0;
   padding: 0;
 }
@@ -65,4 +71,30 @@ figure {
 }
 body {
   overflow-x: hidden;
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+}
+
+.footer-inner {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  /* background-color: #ddd; */
+}
+
+.navigation {
+  color: #fff;
+  text-align: center;
+}
+
+.navigation li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.navigation li a {
+  color: #555;
 }
