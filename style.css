@@ -11,7 +11,11 @@ html {
 body {
   font-size: 1.4rem;
   color: #181818;
+
   font-family: 'Noto Sans KR', sans-serif; /* Noto Sans KR 웹폰트 링크 연결 */
+=======
+  font-family: "Noto Sans KR", sans-serif; /* Noto Sans KR 웹폰트 링크 연결 */
+
   font-weight: 400;
 }
 /* 숨김 콘텐츠 */
@@ -71,6 +75,7 @@ figure {
 }
 body {
   overflow-x: hidden;
+
 }
 
 footer {
@@ -98,3 +103,66 @@ footer {
 .navigation li a {
   color: #555;
 }
+
+
+}
+
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+
+  right: 0;
+  left: 0;
+}
+.menu-list {
+  display: flex;
+}
+
+.menu-list a {
+  display: block;
+  padding: 10px 20px;
+ }
+
+ .menu-list a:hover {
+   border-bottom: 2px solid #aaa;
+ }
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.user-list {
+  display: flex;
+}
+
+.user-list a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.user-list a:hover {
+  border-bottom: 2px solid #aaa;
+}
+/* 메인 영역 스타일링 */
+main {
+  background-color: aqua;
+  background-image: url(./imges/the-new-s90-homepage-hero\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.title {
+  font-size: 12px;
+  color: #fff;
+}
+.sub-title {
+  font-size: 40px;
+  color: #fff;
+}
+
