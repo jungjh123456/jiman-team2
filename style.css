@@ -11,7 +11,11 @@ html {
 body {
   font-size: 1.4rem;
   color: #181818;
+
+  font-family: 'Noto Sans KR', sans-serif; /* Noto Sans KR 웹폰트 링크 연결 */
+=======
   font-family: "Noto Sans KR", sans-serif; /* Noto Sans KR 웹폰트 링크 연결 */
+
   font-weight: 400;
 }
 /* 숨김 콘텐츠 */
@@ -28,7 +32,7 @@ legend {
 }
 /* clearfix */
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: block;
 }
@@ -71,6 +75,35 @@ figure {
 }
 body {
   overflow-x: hidden;
+
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+}
+
+.footer-inner {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  /* background-color: #ddd; */
+}
+
+.navigation {
+  color: #fff;
+  text-align: center;
+}
+
+.navigation li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.navigation li a {
+  color: #555;
+}
+
 
 }
 
