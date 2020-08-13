@@ -115,7 +115,7 @@ body {
 .user-list a:hover {
   border-bottom: 2px solid #aaa;
 }
-/* 메인 영역 스타일링 */
+/* 메인  */
 main {
   background-color: aqua;
   background-image: url(./images/the-new-s90-homepage-hero.jpg);
@@ -131,8 +131,7 @@ main {
   font-size: 40px;
   color: #fff;
 }
-
-
+/* 푸터 */
 footer {
   width: 100%;
   background-color: #000;
